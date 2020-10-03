@@ -1,0 +1,247 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none!important;
+}
+p {
+    margin-bottom: 0px!important;
+}
+/*header*/
+div#navbarNav {
+    justify-content: flex-end;
+}
+header {
+    background: #fcdb00;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+header .bg-light {
+    background-color: #fcdb00!important;
+}
+header a.nav-link {
+    font-size: 22px;
+    line-height: 20px;
+    color: #010101!important;
+    font-weight: 700;
+    margin: 3px 25px;
+}
+#logo a {
+    font-size: 30px;
+    line-height: 20px;
+    color: #010101;
+    font-weight: 700;
+}
+/* Slide */
+@media(min-width: 768px){
+    .slide {
+        display: flex;
+    }
+}
+.carousel-inner {
+    background: #fcdb00;
+}
+.texto_carrocel {
+    margin-top: 45px;
+    width: 36%;
+}
+@media(max-width: 768px){
+    .texto_carrocel {
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+.logo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.phone h2 {
+    color: #fcdb00;
+    margin-left: 5px;
+}
+.texto_carrocel h2 {
+    font-size: 32px;
+    line-height: 26px;
+    color: #010101;
+    font-weight: 700;
+}
+.texto_carrocel h4 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #010101;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.texto_carrocel img {
+    padding: 22px 35px 20px 0px;
+}
+.texto_carrocel p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #313131;
+    font-weight: 400;
+}
+.container.slide {
+    justify-content: space-between;
+    padding-bottom: 70px;
+    padding-top: 15px;
+}
+.phone {
+    height: 380px;
+    max-width: 260px;
+    width: 100%;
+    background: #010101;
+    border-top: 33px solid white;
+    border-bottom: 33px solid white;
+    border-left: 20px solid white;
+    border-radius: 18px;
+    border-right: 20px solid white;
+}
+@media(max-width: 768px){
+    .phone {
+        margin: auto;
+    }
+    }
+/* conteudo */
+@media(max-width: 768px){
+    .conteudo .row {
+        margin-bottom: 0px!important;
+    }
+    .conteudo .col-sm {
+        margin-bottom: 18px;
+    }
+    p.sub-titulo {
+        width: 100%!important;
+    }
+}
+.conteudo {
+    padding: 90px 0px 30px 0px;
+}
+.conteudo .col-sm {
+    display: flex;
+}
+.conteudo img {
+    height: 45px;
+    margin-right: 30px;
+}   
+.conteudo .row {
+    margin-bottom: 80px;
+}
+.conteudo h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    color: #010101;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+p.sub-titulo {
+    font-size: 20px;
+    line-height: 24px;
+    color: #313841;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px!important;
+}
+.texto h3 {
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-weight: 400;
+}
+.texto p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-weight: 400;
+}
+/* newsletter */
+.newsletter {
+    background: #010101;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.newsletter h2 {
+    color: #fcdb00;
+}
+.newsletter p {
+    font-size: 20px;
+    line-height: 24px;
+    color: #898989;
+    font-weight: 400;
+    text-align: center;
+}
+@media(max-width: 920px){
+    .container.newleter {
+        width: 100%!important;
+    }
+    .formulario input {
+        width: 60%!important;
+        padding-left: 0px!important;
+        font-size: 14px;
+    }
+    .formulario button {
+        padding: 0px 15px!important;
+    }
+}
+.container.newleter {
+    width: 65%;
+}
+.formulario {
+    margin-top: 35px;
+}
+.formulario input {
+    width: 75%;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+.formulario button {
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    background: #fcdb00;
+    padding: 0px 30px;
+    margin-left: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* icones redes sociais */
+.social_connect {
+    background: #010101;
+    text-align: center;
+}
+.social_connect img {
+    padding: 15px;
+}
+/* footer */
+footer {
+    background: #010101;
+    padding: 100px 15px;
+    text-align: center;
+}
+.footer a {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.footer p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.footer a:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
